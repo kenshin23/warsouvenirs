@@ -307,6 +307,10 @@ body {
     font-weight: normal;
 }
 
+.text-underline {
+    text-decoration: underline;
+}
+
 .navbar-nav .nav a{
 	color: white !important;
 }
@@ -442,4 +446,17 @@ a.wanted-link:visited {
 a.wanted-link:hover {
     color: #00FF00;
     font-weight: bold;
+}
+
+/* About Page
+ ---------------------------------------------------------------------------- */
+a.article-link {
+    text-decoration: underline;
+}
+a.article-link:link,
+a.article-link:visited {
+    color: #00FFFF;
+}
+a.article-link:hover {
+    color: #00FF00;
 }
