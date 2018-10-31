@@ -231,14 +231,35 @@ body {
 }
 
 .header {
-	background-image: url(http://warsouvenirs.com/images/torch-l.gif),
-		url(http://warsouvenirs.com/images/torch.gif);
+    background-image: url(http://warsouvenirs.com/images/torch-l.gif),
+        url(http://warsouvenirs.com/images/torch.gif);
     background-repeat: no-repeat;
     background-position: 2% 0, 98% 0;
     background-size: 43px 115px, 43px 115px;
 }
 
 .header::after {
+    content: "";
+    background: url(http://warsouvenirs.com/images/background_top.jpg);
+    background-repeat: repeat-x;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.header1 {
+	background-image: url(http://www.animatedimages.org/data/media/486/animated-torch-image-0004.gif),
+		url(http://warsouvenirs.com/images/torch.gif);
+    background-repeat: no-repeat;
+    background-position: 2% 0, 98% 0;
+    background-size: 43px 115px, 43px 115px;
+}
+
+.header1::after {
 	content: "";
 	background: url(http://warsouvenirs.com/images/background_top.jpg);
 	background-repeat: repeat-x;
