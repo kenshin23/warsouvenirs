@@ -231,8 +231,8 @@ body {
 }
 
 .header {
-    background-image: url(http://warsouvenirs.com/images/torch-l.gif),
-        url(http://warsouvenirs.com/images/torch.gif);
+    background-image: url(../img/common/animated-torch-image-0010-transparent.gif),
+        url(../img/common/animated-torch-image-0010-transparent.gif);
     background-repeat: no-repeat;
     background-position: 2% 0, 98% 0;
     background-size: 43px 115px, 43px 115px;
